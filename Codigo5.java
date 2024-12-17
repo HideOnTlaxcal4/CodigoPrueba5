@@ -4,7 +4,7 @@ class Solution {
         int n = needle.length();
 
         for (int i = 0; i <= m - n; i++) {
-            if (haystack.substring(i, i + n).equals(needle)) { // Compara subcadena con needle
+            if (haystack.substring(i, i + n).equals(needle)) {
                 return i; // Retorna el índice de la primera ocurrencia
             }
         }
